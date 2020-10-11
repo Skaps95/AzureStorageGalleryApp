@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>832e801b-3e35-4910-82d5-48ab2f235d94</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleImageGallery.Data\SimpleImageGallery.Data.csproj" />
+    <ProjectReference Include="..\SimpleImageGallery.Services\SimpleImageGallery.Services.csproj" />
   </ItemGroup>
 
 
